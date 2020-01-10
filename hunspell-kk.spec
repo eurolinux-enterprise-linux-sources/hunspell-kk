@@ -1,7 +1,7 @@
 Name: hunspell-kk
 Summary: Kazakh hunspell dictionaries
 Version: 1.1
-Release: 5%{?dist}
+Release: 6%{?dist}
 Group: Applications/Text
 Source: http://extensions.services.openoffice.org/files/1172/8/dict-kk.zip
 URL: http://extensions.services.openoffice.org/project/dict-kk
@@ -38,6 +38,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/myspell/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.1-6
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.1-5
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
